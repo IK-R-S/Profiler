@@ -1,0 +1,17 @@
+# Disclaimer - Profiler
+
+This Disclaimer pertains to the usage of the Profiler tool, an open-source application designed to facilitate data management in people investigations.
+
+1. **Responsible Use**: By using the Profiler tool, the user commits to responsible use of the provided functionalities, respecting laws and regulations applicable to privacy and data collection.
+
+2. **Data Management Framework**: Profiler offers a framework to create, view, and record information related to investigation profiles. It is important to note that the tool itself does not obtain, store, or distribute any personal information about individuals.
+
+3. **User's Personal Data**: If the user chooses to input personal data into the information provided by the tool, it is their sole responsibility to ensure compliance with privacy and data protection laws.
+
+4. **Intellectual Property**: Profiler is an open-source tool under the [MIT License](LICENSE). Users are encouraged to contribute, modify, and distribute as permitted by this license.
+
+5. **Disclaimer of Liability**: The developer and maintainer of Profiler disclaim responsibility for any misuse or illegal use of the tool by third parties. The user is solely responsible for the ethical and legal use of the tool.
+
+By using Profiler, the user agrees to adhere to this Disclaimer. This disclaimer may be updated as necessary, and it is the user's responsibility to periodically review the latest terms.
+
+Last updated: 03 Jan 2024.
