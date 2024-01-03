@@ -54,3 +54,8 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 ## License
 
 This project is open-source licensed under the GPL3 License.
+
+### (DEV) A fazer
+- desenvolver lógica de banco de dados (inserir, editar e remover informações bases e registros)
+- construir integração com PIL para armazenar localmente fotos
+- desenvolver lógica de comandos via argumentos
