@@ -1,4 +1,5 @@
 from os import system as sys
+from datetime import datetime
 import colorama
 import json
 
@@ -9,6 +10,9 @@ colorama.init(autoreset=True)
 c = colorama.Fore
 b = colorama.Back
 s = colorama.Style
+
+# Datetime
+time = datetime.now().strftime("%d.%m.%Y")
 
 # Data
 title = 'Killer Croc'
@@ -43,11 +47,15 @@ profile = {
 profile_JSON = json.dumps(profile, indent=2, ensure_ascii=False)
 
 # Viewer Profile
-print(' ')
-print(f'{c.RED}{s.BRIGHT}┌────────────────────────────────────────┐')
-print(f'{c.RED}{s.BRIGHT}│              {title}               │')
-print(f'{c.RED}{s.BRIGHT}└────────────────────────────────────────┘')
-print(f'{c.RED}{s.DIM}\n‣ {description}\n')
+# Calcula o comprimento total do banner
+banner_width = len(title) + 20  # 14 é o comprimento fixo das bordas e espaçamento
+
+# Imprime o banner adaptativo
+print(f'{c.RED}{s.BRIGHT}┌{"─" * banner_width}┐')
+print(f'{c.RED}{s.BRIGHT}│{title.center(banner_width)}│')
+print(f'{c.RED}{s.BRIGHT}└{"─" * banner_width}┘')
+
+print(f'{c.RED}{s.BRIGHT}\n‣ {s.NORMAL}{description}\n')
 print(b.CYAN + s.BRIGHT + ' INFO                                     \n')
 for key, value in profile.items():
     print(f"{c.CYAN}{key.ljust(15)} {value}")
@@ -66,3 +74,15 @@ he became a monster in both body and spirit. Always seeking his next meal, Croc
 never forgot the scent of Batman and lusted to kill and devour the hero in 
 retribution for his capture at his hands.
 ''')
+
+print(b.CYAN + s.BRIGHT + ' REGISTERS                                     ')
+
+print(f'{c.RED}{s.BRIGHT}\n/ LOCALES\n')
+print(f'{c.RED}{s.BRIGHT}‣ {s.DIM}{time} {s.NORMAL}› Visited Arkham Asylum')
+print(f'{c.RED}{s.BRIGHT}‣ {s.DIM}{time} {s.NORMAL}› Had been seen before underground')
+
+print(f'{c.RED}{s.BRIGHT}\n/ SOCIAL NETWORKS\n')
+print(f'{c.RED}{s.BRIGHT}‣ {s.DIM}{time} {s.NORMAL}› https://instagram.com/@killercroc')
+print(f'{c.RED}{s.BRIGHT}‣ {s.DIM}{time} {s.NORMAL}› https://www.youtube.com/@BatmanArkhamVideos')
+
+action = input(f'\n{s.BRIGHT}{c.CYAN}(krs@TUX-BOOK) [PROFILES/DEMO/KILLER CROC] >>> {s.NORMAL}{c.RED}')
