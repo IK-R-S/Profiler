@@ -1,0 +1,17 @@
+# Termo de Responsabilidade - Profiler
+
+Este Termo de Responsabilidade refere-se ao uso da ferramenta Profiler, uma aplicação de código aberto projetada para facilitar a gestão de dados em investigações de pessoas.
+
+1. **Uso Responsável**: Ao utilizar a ferramenta Profiler, o usuário compromete-se a fazer uso responsável das funcionalidades fornecidas, respeitando as leis e regulamentações aplicáveis à privacidade e coleta de dados.
+
+2. **Estrutura de Gerenciamento de Dados**: O Profiler fornece uma estrutura para criar, visualizar e registrar informações relacionadas a perfis de investigação. Entretanto, é importante ressaltar que a ferramenta em si não obtém, armazena ou distribui qualquer tipo de informação pessoal sobre pessoas.
+
+3. **Dados Pessoais do Usuário**: Caso o usuário opte por inserir dados pessoais nas informações fornecidas pela ferramenta, fica sob sua inteira responsabilidade garantir a conformidade com as leis de privacidade e proteção de dados.
+
+4. **Propriedade Intelectual**: O Profiler é uma ferramenta de código aberto sob a [Licença MIT](LICENSE). Os usuários são incentivados a contribuir, modificar e distribuir conforme permitido por essa licença.
+
+5. **Isenção de Responsabilidade**: O desenvolvedor e mantenedor do Profiler não se responsabilizam pelo uso indevido ou ilegal da ferramenta por terceiros. A responsabilidade pelo uso ético e legal recai inteiramente sobre o usuário.
+
+Ao utilizar o Profiler, o usuário concorda em aderir a este Termo de Responsabilidade. Este termo pode ser atualizado conforme necessário, e é responsabilidade do usuário revisar periodicamente os termos mais recentes.
+
+Data da última atualização: 03 Jan 2024.
