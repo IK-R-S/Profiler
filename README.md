@@ -3,6 +3,8 @@ Profiler is an open-source OSINT tool designed to streamline profile management 
 
 ![image](https://github.com/IK-R-S/Profiler/assets/73291742/c72ea085-a942-4048-8b05-098408ce977b)
 ![image](https://github.com/IK-R-S/Profiler/assets/73291742/68077a9d-1996-475f-9eb0-93e3c1f1425d)
+![image](https://github.com/IK-R-S/Profiler/assets/73291742/45d8bf49-cd67-422a-9718-57714f2e3dc9)
+
 
 
 ## Installation
